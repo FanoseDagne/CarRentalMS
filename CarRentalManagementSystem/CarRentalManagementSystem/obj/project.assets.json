@@ -1,0 +1,156 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CircularProgressBar_NET5/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "WinFormAnimation-NET5": "2.0.0"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/CircularProgressBar_NET5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/CircularProgressBar_NET5.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "WinFormAnimation-NET5/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/WinFormAnimation_NET5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/WinFormAnimation_NET5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CircularProgressBar_NET5/3.0.0": {
+      "sha512": "qtg1nEX2ZvLquRQXXkSFC9aJ8jCn/VPgjWwsHEvFrORWh8JvO/vzE/kCwIYXulAisk3P7RVSIBd7VACcuYShAA==",
+      "type": "package",
+      "path": "circularprogressbar_net5/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.md",
+        "circularprogressbar_net5.3.0.0.nupkg.sha512",
+        "circularprogressbar_net5.nuspec",
+        "lib/net5.0-windows7.0/CircularProgressBar_NET5.dll"
+      ]
+    },
+    "WinFormAnimation-NET5/2.0.0": {
+      "sha512": "xsqrJBJUGVCcdMIAr2gGstpVyiBR2VXvbl8lMTEpCiSQ6xy3WL679tc27nBZoyOgaZQ2Jpi7j8b7WEmPztOtdg==",
+      "type": "package",
+      "path": "winformanimation-net5/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.md",
+        "lib/net5.0/WinFormAnimation_NET5.dll",
+        "winformanimation-net5.2.0.0.nupkg.sha512",
+        "winformanimation-net5.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CircularProgressBar_NET5 >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\CarRentalManagementSystem\\CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+      "projectName": "CarRentalManagementSystem",
+      "projectPath": "C:\\Users\\USER\\Desktop\\CarRentalManagementSystem\\CarRentalManagementSystem\\CarRentalManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\CarRentalManagementSystem\\CarRentalManagementSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CircularProgressBar_NET5": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
